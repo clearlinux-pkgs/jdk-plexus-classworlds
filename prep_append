@@ -1,0 +1,2 @@
+python3 /usr/share/java-utils/mvn_file.py : plexus-classworlds plexus/classworlds
+python3 /usr/share/java-utils/mvn_alias.py : classworlds:classworlds
