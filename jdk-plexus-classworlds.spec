@@ -4,7 +4,7 @@
 #
 Name     : jdk-plexus-classworlds
 Version  : 2.5.2
-Release  : 1
+Release  : 2
 URL      : https://github.com/sonatype/plexus-classworlds/archive/plexus-classworlds-2.5.2.tar.gz
 Source0  : https://github.com/sonatype/plexus-classworlds/archive/plexus-classworlds-2.5.2.tar.gz
 Summary  : No detailed summary available
@@ -141,7 +141,7 @@ python3 /usr/share/java-utils/mvn_alias.py : classworlds:classworlds
 python3 /usr/share/java-utils/mvn_build.py
 
 %install
-xmvn-install  -R .xmvn-reactor -n plexus-classworlds-plexus-classworlds-2.5.2 -d %{buildroot}
+xmvn-install  -R .xmvn-reactor -n plexus-classworlds -d %{buildroot}
 
 %files
 %defattr(-,root,root,-)
@@ -150,6 +150,6 @@ xmvn-install  -R .xmvn-reactor -n plexus-classworlds-plexus-classworlds-2.5.2 -d
 %defattr(-,root,root,-)
 /usr/share/java/plexus-classworlds.jar
 /usr/share/java/plexus/classworlds.jar
-/usr/share/maven-metadata/plexus-classworlds-plexus-classworlds-2.5.2.xml
+/usr/share/maven-metadata/plexus-classworlds.xml
 /usr/share/maven-poms/plexus-classworlds.pom
 /usr/share/maven-poms/plexus/classworlds.pom
