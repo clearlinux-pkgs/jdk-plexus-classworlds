@@ -4,7 +4,7 @@
 #
 Name     : jdk-plexus-classworlds
 Version  : 2.5.2
-Release  : 2
+Release  : 3
 URL      : https://github.com/sonatype/plexus-classworlds/archive/plexus-classworlds-2.5.2.tar.gz
 Source0  : https://github.com/sonatype/plexus-classworlds/archive/plexus-classworlds-2.5.2.tar.gz
 Summary  : No detailed summary available
