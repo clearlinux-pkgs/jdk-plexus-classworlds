@@ -4,7 +4,7 @@
 #
 Name     : jdk-plexus-classworlds
 Version  : 2.5.2
-Release  : 3
+Release  : 4
 URL      : https://github.com/sonatype/plexus-classworlds/archive/plexus-classworlds-2.5.2.tar.gz
 Source0  : https://github.com/sonatype/plexus-classworlds/archive/plexus-classworlds-2.5.2.tar.gz
 Summary  : No detailed summary available
@@ -28,14 +28,12 @@ BuildRequires : jdk-commons-codec
 BuildRequires : jdk-commons-collections
 BuildRequires : jdk-commons-compress
 BuildRequires : jdk-commons-digester
-BuildRequires : jdk-commons-httpclient
 BuildRequires : jdk-commons-io
 BuildRequires : jdk-commons-lang
 BuildRequires : jdk-commons-lang3
 BuildRequires : jdk-commons-logging
 BuildRequires : jdk-commons-validator
 BuildRequires : jdk-doxia
-BuildRequires : jdk-doxia-integration-tools
 BuildRequires : jdk-doxia-sitetools
 BuildRequires : jdk-eclipse-eclipse
 BuildRequires : jdk-eclipse-osgi
@@ -44,7 +42,6 @@ BuildRequires : jdk-enforcer
 BuildRequires : jdk-felix
 BuildRequires : jdk-felix-bundlerepository
 BuildRequires : jdk-felix-framework
-BuildRequires : jdk-felix-osgi-core
 BuildRequires : jdk-felix-osgi-foundation
 BuildRequires : jdk-felix-utils
 BuildRequires : jdk-file-management
@@ -55,9 +52,6 @@ BuildRequires : jdk-guice
 BuildRequires : jdk-hamcrest
 BuildRequires : jdk-httpcomponents-client
 BuildRequires : jdk-httpcomponents-core
-BuildRequires : jdk-jackrabbit-jcr-commons
-BuildRequires : jdk-jackrabbit-parent
-BuildRequires : jdk-jackrabbit-webdav
 BuildRequires : jdk-jsoup
 BuildRequires : jdk-jsr-305
 BuildRequires : jdk-junit4
@@ -73,22 +67,17 @@ BuildRequires : jdk-maven-dependency-tree
 BuildRequires : jdk-maven-filtering
 BuildRequires : jdk-maven-invoker
 BuildRequires : jdk-maven-javadoc-plugin
-BuildRequires : jdk-maven-parent
 BuildRequires : jdk-maven-plugin-testing
 BuildRequires : jdk-maven-plugin-tools
 BuildRequires : jdk-maven-reporting-api
-BuildRequires : jdk-maven-reporting-exec
 BuildRequires : jdk-maven-reporting-impl
 BuildRequires : jdk-maven-resources-plugin
 BuildRequires : jdk-maven-shared-incremental
 BuildRequires : jdk-maven-shared-io
 BuildRequires : jdk-maven-shared-utils
-BuildRequires : jdk-maven-site-plugin
 BuildRequires : jdk-objectweb-asm
 BuildRequires : jdk-osgi-compendium
 BuildRequires : jdk-osgi-core
-BuildRequires : jdk-parboiled
-BuildRequires : jdk-pegdown
 BuildRequires : jdk-plexus
 BuildRequires : jdk-plexus-archiver
 BuildRequires : jdk-plexus-build-api
@@ -106,11 +95,9 @@ BuildRequires : jdk-plexus-velocity
 BuildRequires : jdk-sisu
 BuildRequires : jdk-slf4j
 BuildRequires : jdk-snappy-java
-BuildRequires : jdk-spice-parent
 BuildRequires : jdk-surefire
 BuildRequires : jdk-velocity
 BuildRequires : jdk-wagon
-BuildRequires : jdk-wagon-webdav-jackrabbit
 BuildRequires : jdk-xbean
 BuildRequires : jdk-xml-apis
 BuildRequires : jdk-xmlunit
